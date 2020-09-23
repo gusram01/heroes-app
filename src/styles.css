@@ -1,0 +1,12 @@
+.card__fade{
+  animation: 300ms ease-in 50ms forwards fadeIn;
+}
+
+@keyframes fadeIn{
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 100%;
+  }
+}
